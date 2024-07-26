@@ -1,0 +1,26 @@
+# Ignore macOS system files
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+
+# IDE and Editor folders
+.idea/
+.vscode/
+
+# iOS and Android build files
+ios/Pods/
+ios/Flutter/Flutter.framework
+android/.gradle/
+android/app/build/
+
+# Windows system files
+Thumbs.db

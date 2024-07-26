@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "47456560309",
+    "project_id": "yoriki---michal",
+    "storage_bucket": "yoriki---michal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47456560309:android:3a7290b9ea96a563adcafc",
+        "android_client_info": {
+          "package_name": "com.yoriki.lightmachine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47456560309-86e7sc8umgaej379mu3udqm97vjv4b2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yoriki.lightmachine",
+            "certificate_hash": "a6f4e5eadb8f6537a35fe1e2a7a3117a8c98114e"
+          }
+        },
+        {
+          "client_id": "47456560309-2pb30umpsevet1hdkif7rf4qebq5lndn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoLyKbbs3g-CZ_3WpE05UB4oAj6kMr2Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47456560309-2pb30umpsevet1hdkif7rf4qebq5lndn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "47456560309-thbbilog3cdli2m06sr8see4jbig2ets.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yoriki.lightmachine"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

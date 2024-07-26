@@ -1,0 +1,60 @@
+import 'package:get/get.dart';
+
+class AppTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_US': {
+          'Enter your email': 'Enter your email',
+          'Please enter your email': 'Please enter your email',
+          'Please enter your password': 'Please enter your password',
+          'Password': 'Password',
+          'Email': 'Email',
+          'Login': 'Login',
+          'Setting': 'Setting',
+          'Welcome': 'Welcome',
+          'Sign in with Google': 'Sign in with Google',
+          'On Double touched': 'On Double touched',
+          'Username': 'Username',
+          'Cancel': 'Cancel',
+          'Authenticate': 'Authenticate',
+          'All approved!': 'All approved!',
+          'Approve all': 'Approve all',
+          'Reject all': 'Reject all',
+          'Approved': 'Approved',
+          'Rejected': 'Rejected',
+          'All rejected!': 'All rejected!',
+          'Change Language to Hebrew': 'Change Language to Hebrew',
+          'New notification is arrived!': 'New notification is arrived!',
+          'Height Percent of Header': 'Height Percent of Header',
+          'OK': 'OK',
+          'New notification is arrived': 'New notification is arrived',
+          'New notification type is invalid':
+              'New notification type is invalid',
+        },
+        'he_IL': {
+          'Enter your email': 'מלא.י את כתובת האימייל שלך',
+          'Please enter your email': 'בבקשה מלא.י את כותבת האימייל שלך',
+          'Please enter your password': 'בבקשה מלא.י את הסיסמה שלך',
+          'Password': 'סיסמה',
+          'Email': 'אימייל',
+          'Login': 'כניסה',
+          'Setting': 'הגדרות',
+          'Welcome': 'ברוכ.ה הבא.ה',
+          'Sign in with Google': 'הכנס עם גוגל',
+          'Username': 'שם משתמש.ת',
+          'Cancel': 'ביטול',
+          'All approved!': '!הכל אושר',
+          'Approve all': 'אשר הכל',
+          'Reject all': 'בטל הכל',
+          'Approved': 'אושר',
+          'Rejected': 'בוטל',
+          'All rejected!': 'הכל בטול',
+          'Change Language to Hebrew': 'שנה שפה לאנגלית',
+          'New notification is arrived!': 'הודעה חדשה הגיעה!',
+          'Height Percent of Header': 'אחוז גובה מהכותרת',
+          'OK': 'נָכוֹן',
+          'New notification is arrived': 'הודעה חדשה הגיעה',
+          'New notification type is invalid': 'סוג ההתראה החדש אינו חוקי',
+        }
+      };
+}

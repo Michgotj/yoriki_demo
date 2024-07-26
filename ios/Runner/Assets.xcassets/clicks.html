@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Click Coordinates</title>
+<style>
+  button {
+    margin: 10px;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+<button id="button1">כפתור מספר 1</button>
+<button id="button2">כפתור מספר 2</button>
+<button id="button3">כפתור מספר 3</button>
+<button id="button4">כפתור מספר 4</button>
+
+<script>
+  // JavaScript code will go here
+document.addEventListener("DOMContentLoaded", function() {
+  const buttons = document.querySelectorAll('button');
+  buttons.forEach(button => {
+    button.addEventListener('click', function(event) {
+      console.log(`Button ID: ${this.id}, X: ${event.clientX}, Y: ${event.clientY}`);
+    });
+  });
+});
+</script>
+</body>
+</html>
+
